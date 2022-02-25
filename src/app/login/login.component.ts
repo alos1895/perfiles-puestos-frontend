@@ -1,28 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { UsersService } from '../users.service';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: []
+  styleUrls: [],
 })
 export class LoginComponent implements OnInit {
-
   email!: string;
   password!: string;
 
-  constructor(public userservice: UsersService) { }
+  constructor(public userservice: UsersService, public router: Router) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  login(){
-    const user = {  email: this.email, password: this.password };
-    console.log(user);
+  login() {
+    const user = { email: this.email, password: this.password };
 
-
-    this.userservice.login(user).subscribe( daya => {
-      console.log(daya);
+    this.userservice.login(user).subscribe((data) => {
+      this.userservice.setToken(data.token);
+      this.router.navigateByUrl('/');
     });
   }
 }
