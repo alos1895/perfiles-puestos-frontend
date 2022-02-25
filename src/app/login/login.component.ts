@@ -11,6 +11,8 @@ export class LoginComponent implements OnInit {
   email!: string;
   password!: string;
 
+  token = localStorage.getItem('auth_token') === null ? false : localStorage.getItem('auth_token');
+
   constructor(public userService: UsersService, public router: Router) {}
 
   ngOnInit(): void {}
@@ -21,6 +23,7 @@ export class LoginComponent implements OnInit {
       data => {
         this.userService.setToken(data.token);
         console.log(data.token);
+        localStorage.setItem('auth_token', data.token);
         this.router.navigateByUrl('home');
       },
       error => {

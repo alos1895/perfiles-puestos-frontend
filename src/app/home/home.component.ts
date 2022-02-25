@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit {
   }
   
   getUserLogged() {
-    this.userService.getUser().subscribe(user => {
-      console.log(user);
+    this.userService.getUser(localStorage!.getItem('auth_token')!).subscribe( data => {
+      console.log(data);
     });
   }
 }

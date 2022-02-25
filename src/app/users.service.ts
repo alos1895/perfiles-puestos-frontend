@@ -24,11 +24,17 @@ export class UsersService {
   getToken() {
     return this.cookies.get('token');
   }
-  getUser() {
-    return this.http.get('https://reqres.in/api/users/2');
+  getUser(toke: string) {
+    const headers = {
+      headers: {
+        Authorization: `Bearer ${toke}`,
+      },
+    };
+
+    return this.http.get(Constantes.SERVER_API_GET_USER, headers);
   }
+
   getUserLogged() {
     const token = this.getToken();
-    // Aquí iría el endpoint para devolver el usuario para un token
   }
 }
