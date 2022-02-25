@@ -24,7 +24,7 @@ export class UsersService {
   getToken() {
     return this.cookies.get('token');
   }
-  getUser(toke: string) {
+  getUser(toke: string){
     const headers = {
       headers: {
         Authorization: `Bearer ${toke}`,

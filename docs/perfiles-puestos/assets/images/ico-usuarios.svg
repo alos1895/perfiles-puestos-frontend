@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="214" height="214" viewBox="0 0 214 214">
+  <defs>
+    <filter id="Rectángulo_1112" x="0" y="0" width="214" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1136" data-name="Rectángulo 1136" width="64" height="73" transform="translate(-0.161 -0.041)" fill="#fa922b"/>
+    </clipPath>
+  </defs>
+  <g id="ico-usuarios" transform="translate(-417 -468)">
+    <g transform="matrix(1, 0, 0, 1, 417, 468)" filter="url(#Rectángulo_1112)">
+      <rect id="Rectángulo_1112-2" data-name="Rectángulo 1112" width="196" height="196" rx="10" transform="translate(9 6)" fill="#f7f7f7"/>
+    </g>
+    <rect id="Rectángulo_1127" data-name="Rectángulo 1127" width="132" height="132" rx="66" transform="translate(458 506)" fill="#ffdc48"/>
+    <rect id="Rectángulo_1132" data-name="Rectángulo 1132" width="19" height="19" rx="9.5" transform="translate(457 590)" fill="#496a91"/>
+    <g id="Grupo_1027" data-name="Grupo 1027" transform="translate(492.161 536.041)">
+      <g id="Grupo_1026" data-name="Grupo 1026" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Trazado_745" data-name="Trazado 745" d="M31.919,36.479A18.24,18.24,0,1,0,13.68,18.24a18.238,18.238,0,0,0,18.24,18.24m12.768,4.56h-2.38a24.805,24.805,0,0,1-20.776,0h-2.38A19.157,19.157,0,0,0,0,60.191v5.928a6.842,6.842,0,0,0,6.84,6.84H57a6.842,6.842,0,0,0,6.84-6.84V60.191A19.157,19.157,0,0,0,44.687,41.039" transform="translate(0 0)" fill="#fa922b"/>
+      </g>
+    </g>
+  </g>
+</svg>
