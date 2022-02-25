@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="214" height="214" viewBox="0 0 214 214">
+  <defs>
+    <filter id="Rectángulo_1112" x="0" y="0" width="214" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1139" data-name="Rectángulo 1139" width="85" height="68" transform="translate(0.393 0.314)" fill="#fa922b"/>
+    </clipPath>
+  </defs>
+  <g id="ico-proveedormes" transform="translate(-417 -468)">
+    <g transform="matrix(1, 0, 0, 1, 417, 468)" filter="url(#Rectángulo_1112)">
+      <rect id="Rectángulo_1112-2" data-name="Rectángulo 1112" width="196" height="196" rx="10" transform="translate(9 6)" fill="#f7f7f7"/>
+    </g>
+    <rect id="Rectángulo_1127" data-name="Rectángulo 1127" width="132" height="132" rx="66" transform="translate(458 506)" fill="#ffdc48"/>
+    <rect id="Rectángulo_1135" data-name="Rectángulo 1135" width="19" height="19" rx="9.5" transform="translate(561 515)" fill="#496a91"/>
+    <g id="Grupo_1033" data-name="Grupo 1033" transform="translate(484.607 537.686)">
+      <g id="Grupo_1032" data-name="Grupo 1032" clip-path="url(#clip-path)">
+        <path id="Trazado_748" data-name="Trazado 748" d="M66.179,29.887A19.213,19.213,0,1,0,85.393,49.1,19.2,19.2,0,0,0,66.179,29.887m8.539,20.054a1.3,1.3,0,0,1-1.294,1.294H65.339a1.3,1.3,0,0,1-1.294-1.294V39.721a1.3,1.3,0,0,1,1.294-1.294H67.02a1.3,1.3,0,0,1,1.294,1.294v7.245h5.11a1.3,1.3,0,0,1,1.294,1.294ZM42.7,49.1A23.4,23.4,0,0,1,45.125,38.76a17.779,17.779,0,0,0-3.282-.334H39.614a23.226,23.226,0,0,1-19.454,0H17.932A17.937,17.937,0,0,0,0,56.359V61.91a6.406,6.406,0,0,0,6.4,6.4H52.717A23.482,23.482,0,0,1,42.7,49.1M29.887,34.157A17.079,17.079,0,1,0,12.809,17.079,17.077,17.077,0,0,0,29.887,34.157" fill="#fa922b"/>
+      </g>
+    </g>
+  </g>
+</svg>

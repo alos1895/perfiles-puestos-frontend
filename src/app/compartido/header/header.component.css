@@ -1,0 +1,22 @@
+.menugraf {
+  background: #fff url('/assets/images/header_admon_gris.png')no-repeat scroll;
+  height: 120px;
+  background-color: #d5d9db;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.fondo_footer {
+  background-color: #4D5358;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.titulos-secciones {
+  border-bottom: 3px solid #D5D8DA;
+  margin-top: 20px;
+}

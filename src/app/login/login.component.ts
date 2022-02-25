@@ -22,12 +22,13 @@ export class LoginComponent implements OnInit {
     this.userService.login(user).subscribe(
       data => {
         this.userService.setToken(data.token);
-        console.log(data.token);
+        console.log(`Este es el token: ${data.token}`);
         localStorage.setItem('auth_token', data.token);
         this.router.navigateByUrl('home');
       },
       error => {
         console.log(error);
+        this.router.navigateByUrl('login');
       });
   }
 }

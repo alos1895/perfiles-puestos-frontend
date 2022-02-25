@@ -1,1 +1,31 @@
-<h1>Home</h1>
+<div class="row">
+    <div class="col-12">
+        <h1>Datos del usuario</h1>
+    </div>
+    <label>Nombre</label>
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="Nombre" value="{{ usuarioData?.nombre }} "/>
+    </div>
+    <label>Apellido 1</label>
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="Apellido" value="{{ usuarioData?.primer_apellido }} "/>
+    </div>
+    <label>Apellido 2</label>
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="Segundo apellido" value="{{ usuarioData?.segundo_apellido }} "/>
+    </div>
+    <label>Correo</label>
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="Correo" value="{{ usuarioData?.email }} "/>
+    </div>
+    <label>UP</label>
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="UP" value="{{ usuarioData?.up }} "/>
+    </div>
+
+    <div class="row pt-3">
+        <div class="col">
+            <button class="btn btn-primary" (click)="exitSession()">Salir</button>
+        </div>
+    </div>
+</div>

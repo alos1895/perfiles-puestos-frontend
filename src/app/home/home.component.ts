@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { IUsuario } from '../models/Usuario';
 import { UsersService } from '../users.service';
 
 @Component({
@@ -8,15 +10,23 @@ import { UsersService } from '../users.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public userService:UsersService) { }
+  usuarioData?: IUsuario;
+
+  constructor(public userService:UsersService, public router: Router) { }
 
   ngOnInit(): void {
     this.getUserLogged();
   }
   
   getUserLogged() {
-    this.userService.getUser(localStorage!.getItem('auth_token')!).subscribe( data => {
-      console.log(data);
+    this.userService.getUser(localStorage!.getItem('auth_token')!).subscribe( (data: any) => {
+      //console.log(data);
+      this.usuarioData = data;
     });
+  }
+
+  exitSession(){
+    localStorage.removeItem('auth_token');
+    this.router.navigateByUrl('login');
   }
 }

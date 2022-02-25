@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="214" height="214" viewBox="0 0 214 214">
+  <defs>
+    <filter id="Rectángulo_1112" x="0" y="0" width="214" height="214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1130" data-name="Rectángulo 1130" width="76" height="53" transform="translate(-0.248)" fill="#fa922b"/>
+    </clipPath>
+  </defs>
+  <g id="ico-presupuestos" transform="translate(-417 -468)">
+    <g transform="matrix(1, 0, 0, 1, 417, 468)" filter="url(#Rectángulo_1112)">
+      <rect id="Rectángulo_1112-2" data-name="Rectángulo 1112" width="196" height="196" rx="10" transform="translate(9 6)" fill="#f7f7f7"/>
+    </g>
+    <rect id="Rectángulo_1127" data-name="Rectángulo 1127" width="132" height="132" rx="66" transform="translate(458 506)" fill="#ffdc48"/>
+    <g id="Grupo_1018" data-name="Grupo 1018" transform="translate(486.248 546)">
+      <g id="Grupo_1017" data-name="Grupo 1017" transform="translate(0)" clip-path="url(#clip-path)">
+        <path id="Trazado_743" data-name="Trazado 743" d="M0,49.239a3.788,3.788,0,0,0,3.788,3.788H71.965a3.788,3.788,0,0,0,3.788-3.788V11.363H0ZM53.027,24.62a1.893,1.893,0,0,1,1.894-1.894H66.283a1.893,1.893,0,0,1,1.894,1.894v3.788A1.893,1.893,0,0,1,66.283,30.3H54.921a1.893,1.893,0,0,1-1.894-1.894Zm0,14.2a.947.947,0,0,1,.947-.947H67.23a.947.947,0,0,1,.947.947v1.894a.947.947,0,0,1-.947.947H53.974a.947.947,0,0,1-.947-.947ZM7.575,27.46a.947.947,0,0,1,.947-.947H44.5a.947.947,0,0,1,.947.947v1.894a.947.947,0,0,1-.947.947H8.522a.947.947,0,0,1-.947-.947Zm0,11.363a.947.947,0,0,1,.947-.947H29.354a.947.947,0,0,1,.947.947v1.894a.947.947,0,0,1-.947.947H8.522a.947.947,0,0,1-.947-.947ZM73.859,0H1.894A1.893,1.893,0,0,0,0,1.894V7.575H75.752V1.894A1.893,1.893,0,0,0,73.859,0" transform="translate(0)" fill="#fa922b"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_1134" data-name="Rectángulo 1134" width="19" height="19" rx="9.5" transform="translate(561 605)" fill="#496a91"/>
+  </g>
+</svg>
